@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+  <html>
+    <head>
+      <title>Dobre Bo Nasze</title>
+      <meta charset="UTF-8" />
+      <meta name="description" content="Strona Dobre Bo Nasze" />
+      <meta
+        name="keywords"
+        content="Kiełbasa, polędwica, ziemniaki, jaja, ser, śliwka, gruszka, czerwona porzeczka"
+      />
+      <meta name="author" content="Filip Sikorski" />
+      <meta name="robots" content="all" />
+      <style>
+        body {
+          text-align: center;
+		font-family:Verdana,sans-serif;	
+          background-color: white;
+        }
+        div {
+          width: 448px;
+          height: 252px;
+          display: inline-block;
+          position: relative;
+          transition: all 0.3s;
+        }
+        img.zdjecia {
+          width: 99%;
+          height: 99%;
+        }
+        div.powiekszalne:hover {
+          transform: scale(1.6);
+          z-index: 2;
+        }
+        div.powiekszalne:active {
+          transform: scale(1.6);
+          z-index: 2;
+        }
+
+        figcaption.cena {
+          position: absolute;
+          bottom: 20px;
+          left: 10px;
+          color: red;
+          font-size: 40px;
+          opacity: 0;
+          font-weight: 700;
+        }
+        figcaption.tel {
+          position: absolute;
+          bottom: 200px;
+          left: 10px;
+          color: red;
+          font-size: 40px;
+          opacity: 0;
+          font-weight: 700;
+        }
+
+        div.powiekszalne:hover figcaption {
+          opacity: 1;
+          transition: all 0.5s;
+        }
+        #dobre {
+          font-family: Monaco, monospace, sans-serif;
+          font-size: 40px;
+          line-height: 0.6;
+        }
+        .logo {
+          display: inline-block;
+          position: relative;
+          left: 100px;
+        }
+        #opis {
+          font-size: 30px;
+        }
+        .logoue {
+          display: inline-block;
+          position: relative;
+          right: 100px;
+        }
+        .dolnanawigacja {
+          text-align: center;
+          font-size: 30px;
+        }
+        .dolnanawigacja a {
+          text-decoration: none;
+          display: inline-block;
+          padding: 8px 16px;
+        }
+        .next {
+          background-color: #000000;
+          color: white;
+        }
+      </style>
+    </head>
+    <body>
+      <content>
+        <p id="dobre">
+          <img src="eu_flag.jpg" class="logoue" height="80px" />Wyroby<img
+            src="logo.JPG"
+            class="logo"
+            height="80px"
+          />
+        </p>
+
+        <div class="powiekszalne">
+          <img class="zdjecia" src="ziemniaki.jpg" />
+          <figcaption class="cena">Cena: 20zł/15kg</figcaption>
+          <figcaption class="tel">tel.691 664 627</figcaption>
+        </div>
+        <div class="powiekszalne">
+          <img class="zdjecia" src="sery.jpg" />
+          <figcaption class="cena">Cena: 38zł/kg</figcaption>
+          <figcaption class="tel">tel.601 901 926</figcaption>
+        </div>
+        <div class="powiekszalne">
+          <img class="zdjecia" src="kurczak.jpg" />
+          <figcaption class="cena">Cena: 1,2zł/szt</figcaption>
+          <figcaption class="tel">tel.696 603 195</figcaption>
+        </div>
+        <br />
+        <div class="powiekszalne">
+          <img class="zdjecia" src="kielbasa.jpg" />
+          <figcaption class="cena">Cena: 35zł/kg</figcaption>
+          <figcaption class="tel">tel.609 928 039</figcaption>
+        </div>
+        <div class="powiekszalne">
+          <img class="zdjecia" src="szynka.jpg" />
+          <figcaption class="cena">Cena: 40zł/kg</figcaption>
+          <figcaption class="tel">tel.609 928 039</figcaption>
+        </div>
+        <div class="powiekszalne">
+          <img class="zdjecia" src="schab.jpg" />
+          <figcaption class="cena">Cena: 42zł/kg</figcaption>
+          <figcaption class="tel">tel.609 928 039</figcaption>
+        </div>
+        <br />
+        <div class="powiekszalne">
+          <img class="zdjecia" src="sliwka.jpg" />
+          <figcaption class="cena">sprz. sezonowa</figcaption>
+          <figcaption class="tel">tel.608 510 238</figcaption>
+        </div>
+        <div class="powiekszalne">
+          <img class="zdjecia" src="gruszka.jpeg" />
+          <figcaption class="cena">sprz. sezonowa</figcaption>
+          <figcaption class="tel">tel.608 510 238</figcaption>
+        </div>
+        <div class="powiekszalne">
+          <img class="zdjecia" src="czerwonaporzeczka.jpg" />
+          <figcaption class="cena">sprz. sezonowa</figcaption>
+          <figcaption class="tel">tel.608 510 238</figcaption>
+        </div>
+        <br />
+        <div class="dolnanawigacja">
+          <a href="index.html " class="next">&#8249; Wróć</a>
+        </div>
+      </content>
+    </body>
+  </html>
+</html>
